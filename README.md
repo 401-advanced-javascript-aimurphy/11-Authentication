@@ -43,4 +43,4 @@ Usage Notes or examples
 * What assertions need to be / should be made?
 
 #### UML
-![uml](./img/uml.jpg)
+![uml with my friends: Austin, Adriana, Adrienne](./img/uml.jpg)
