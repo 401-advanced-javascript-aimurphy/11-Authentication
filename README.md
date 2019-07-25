@@ -1,13 +1,13 @@
-# LAB - 
+# LAB - 11
 
-## Project Name
+## Authentication
 
-### Author: Student/Group Name
+### Author: Ai
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/401-advanced-javascript-aimurphy/11-Authentication/pull/3)
+* [![Build Status](https://travis-ci.com/401-advanced-javascript-aimurphy/11-Authentication.svg?branch=master)](https://travis-ci.com/401-advanced-javascript-aimurphy/11-Authentication)
+* [back-end](http://xyz.com) (heroku)
 * [front-end](http://xyz.com) (when applicable)
 
 #### Documentation
@@ -43,4 +43,4 @@ Usage Notes or examples
 * What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+![uml](./img/uml.jpg)
