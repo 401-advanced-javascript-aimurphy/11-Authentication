@@ -2,9 +2,11 @@
 
 const express = require('express');
 const router = express.Router();
+const auth
 
-router.get('/books', handleGetAll);
-router.get('/books/:id', handleGetOne);
+// auth must be on the protected pages so that only signed up singed in ppl can see 
+router.get('/books', auth, handleGetAll);
+router.get('/books/:id', auth, handleGetOne);
 
 // Route Handlers
 function handleGetAll(req, res, next) {
