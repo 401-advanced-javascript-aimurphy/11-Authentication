@@ -2,7 +2,8 @@
 
 const express = require('express');
 const router = express.Router();
-const auth
+const auth = require('./middleware.js');
+
 
 // auth must be on the protected pages so that only signed up singed in ppl can see 
 router.get('/books', auth, handleGetAll);
